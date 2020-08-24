@@ -13,13 +13,13 @@ network_id1=[]
 agraj=[]
 
 headers = {
-        "Authorization": "63560792414a511fc61c79fbc121c2dff3106ba3",
+        "Authorization": "eb307c5b2a9866df45c17ffb18984a03d8ded8fb",
         "verify": "hydra.cer"
           }
 
 
 url_2 = "https://hydra.gic.ericsson.se/api/5.0/network"
-data1 = {"token": "63560792414a511fc61c79fbc121c2dff3106ba3",
+data1 = {"token": "eb307c5b2a9866df45c17ffb18984a03d8ded8fb",
               
               "partition_id": '3802' ,
               "provider_id": '925' ,
@@ -50,12 +50,12 @@ pprint.pprint(hydra_entry)
 
 
 headers_1 = {
-        "Authorization": "63560792414a511fc61c79fbc121c2dff3106ba3",
+        "Authorization": "eb307c5b2a9866df45c17ffb18984a03d8ded8fb",
         "verify": "hydra.cer"
           }
 
 url_4 = "https://hydra.gic.ericsson.se/api/5.0/tag"
-data4 = {"token": "63560792414a511fc61c79fbc121c2dff3106ba3",
+data4 = {"token": "eb307c5b2a9866df45c17ffb18984a03d8ded8fb",
         
          'l2_domain_id': '632' ,
          'network_id':network_id1 ,
